@@ -1,0 +1,12 @@
+# Ignorar arquivos e pastas de sistema
+AppData/
+OneDrive/
+Desktop/
+Downloads/
+Favorites/
+Videos/
+Saved Games/
+_netrc
+NTUSER.DAT
+*.log
+*.tmp
