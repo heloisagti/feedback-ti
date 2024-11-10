@@ -4,23 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feedback de Suporte de TI</title>
+
+  <!-- Link para o arquivo CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Feedback de Suporte de TI</h1>
 
   <!-- Formulário de feedback -->
-  <form action="https://script.google.com/macros/s/AKfycbwgtSVF0jd2Hv-gmAMR-TWVYxdsQ7kWE1mt2b5EZAxSg__x2q9bvOOzrLeCzWftKXkxbw/exec" method="POST">
-    <label for="name">Nome do Usuário:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+  <form action="https://script.google.com/macros/s/AKfycbzkBvcWac93yRlHDW579IBjj_0r4WRb6Qyqmk6a-sMds0S6BEUnpgWwLjJxa88YFQrf8g/exec" method="POST">
+    <label for="name">Nome do Usuário:</label>
+    <input type="text" id="name" name="name" required>
 
-    <label for="email">E-mail:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
 
-    <label for="comments">Comentário:</label><br>
-    <textarea id="comments" name="comments" rows="4" required></textarea><br><br>
+    <label for="id_service">ID do Serviço:</label>
+    <input type="text" id="id_service" name="id_service" required>
 
-    <label for="rating">Nota (1 a 5):</label><br>
-    <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+    <label for="technician">Nome do Técnico:</label>
+    <input type="text" id="technician" name="technician" required>
+
+    <label for="comments">Comentário:</label>
+    <textarea id="comments" name="comments" rows="4" required></textarea>
+
+    <label for="rating">Nota (1 a 5):</label>
+    <input type="number" id="rating" name="rating" min="1" max="5" required>
 
     <button type="submit">Enviar Feedback</button>
   </form>
@@ -28,3 +37,6 @@
   <p id="status"></p>
 </body>
 </html>
+
+
+
