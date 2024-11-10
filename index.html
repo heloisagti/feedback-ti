@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DO<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,8 @@
   <h1>Feedback de Suporte de TI</h1>
 
   <!-- Formulário de feedback -->
-  <form action="https://script.google.com/macros/s/AKfycbwgtSVF0jd2Hv-gmAMR-TWVYxdsQ7kWE1mt2b5EZAxSg__x2q9bvOOzrLeCzWftKXkxbw/exec" method="POST">
+  <form action="https://script.google.com/macros/s/AKfycbzjrIxjA5IkeyK217gHA8cDKDGPJx1TLSirTAMCtjsfXKjidEMWcWpI6rXQFu_SVnGm0g/exec" method="POST">
+    
     <label for="name">Nome do Usuário:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 
@@ -21,6 +22,13 @@
 
     <label for="rating">Nota (1 a 5):</label><br>
     <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+    <!-- Novos campos -->
+    <label for="id_servico">ID do Serviço:</label><br>
+    <input type="text" id="id_servico" name="id_servico" required><br><br>
+
+    <label for="tecnico_nome">Nome do Técnico:</label><br>
+    <input type="text" id="tecnico_nome" name="tecnico_nome" required><br><br>
 
     <button type="submit">Enviar Feedback</button>
   </form>
